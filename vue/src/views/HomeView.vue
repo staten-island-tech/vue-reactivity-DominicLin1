@@ -1,9 +1,14 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+
+
+import { League } from "./array.js";
+;
 
 <template>
   <main>
-    <TheWelcome />
+    <ul>
+    <li v-for="champion in " :key="champion">{{ champion }}</li>
+    </ul>
+ console(League)=>console
+methods: {},
   </main>
 </template>
