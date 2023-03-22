@@ -7,9 +7,9 @@ import { League } from './array'
 /* 
 const app = createApp(App) */
 
-function console(){
+
     console.log(League)
-}
+
 /* }
 app.use(router)
 

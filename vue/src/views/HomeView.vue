@@ -6,7 +6,7 @@ import { League } from "./array.js";
 <template>
   <main>
     <ul>
-    <li v-for="champion in champion" :key="champion">{{ champion }}</li>
+    <li v-for=" champion in League " :key="champion">{{ League.champion }}</li>
     </ul>
 
 console: (League) => console
