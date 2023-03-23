@@ -1,9 +1,8 @@
-
-<script setup>
+<script>
 import { League } from '../../js/array';
 export default {
   data(){
-return {League}
+return {League}}
 }
 
 </script>
@@ -14,7 +13,7 @@ return {League}
     <li v-for=" champion in  League" :key="champion">{{ champion }}</li>
     </ul>
   
-  }
+  
 
   </main>
 </template>
