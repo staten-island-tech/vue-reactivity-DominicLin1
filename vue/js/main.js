@@ -1,16 +1,14 @@
-/* import { createApp } from 'vue'
+ import { createApp } from 'vue'
 import App from '../src/App.vue'
-import router from '.' */
+import router from '.'
 
-/* import './assets/main.css' */
 import { League } from './array'
-/* 
-const app = createApp(App) */
 
+const app = createApp(App) 
 
-    console.log(League)
+console.log(League)
 
-/* }
+ 
 app.use(router)
 
-app.mount('#app') */
+app.mount('#app') 

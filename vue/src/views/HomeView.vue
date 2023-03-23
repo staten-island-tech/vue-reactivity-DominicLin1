@@ -1,14 +1,21 @@
 
+<script setup>
+import { League } from '../../js/array';
+export default {
+  data(){
+return {League}
+}
 
-import { League } from "./array.js";
-;
+</script>
 
 <template>
   <main>
     <ul>
-    <li v-for=" champion in League " :key="champion">{{ League.champion }}</li>
+    <li v-for=" champion in  League" :key="champion">{{ champion }}</li>
     </ul>
+  
+  }
 
-console: (League) => console
   </main>
 </template>
+ 
