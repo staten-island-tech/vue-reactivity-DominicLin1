@@ -1,8 +1,8 @@
 <script>
-import {filtered} from '../../js/filter';
+import {League} from '../../js/array';
 export default {
   data(){
-return {filtered}
+return {League}
 }}
 
 </script>
@@ -10,7 +10,7 @@ return {filtered}
 <template>
   <main>
     <ul>
-    <li v-for=" champion in filtered" :key="champion">{{ champion }}</li>
+    <li v-for=" champion in League" :key="champion">{{ champion }}</li>
     </ul>
   
   
