@@ -9,13 +9,15 @@ components: {
   LeagueTemplate,
 }}
 </script>
-
+<!-- 
 <template>
- <LeagueTemplate
- v-for=" champion in League" :key="champion" {{ champion }}
- :image="champion.img"
- :champion="champion.champion"
+ <LeagueTemplate> -->
+  <u1>
+ <l1 v-for=" champion in League" :key="champion" {{ champion }} </l1>
+</u1>
+<!--   :image="champion.img" -->
+<!--  :champion="champion.champion"
  :role="champion.role"
- :price="champion.price" />
-</template>
- 
+ :price="champion.price"
+</LeagueTemplate>
+</template> -->

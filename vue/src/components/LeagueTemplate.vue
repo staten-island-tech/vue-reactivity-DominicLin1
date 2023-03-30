@@ -2,7 +2,7 @@
 <template>
   <main>
     <div class="display-card">
-            <img class="display-img" src= {{ image }}/>
+        <!--     <img class="display-img" src= {{ image }}/> -->
             <h2 class="display-champion" id= "display-champion">{{ champion }}</h2>
             <h3 class="display-role" id="display-role"> {{ role }}</h3>
             <h3 class="display-price" id="display-price"> {{ price }}</h3>
@@ -14,13 +14,128 @@
 export default {
   name: "LeagueTemplate",
   props: {
-    image: String,
+ /*    image: String, */
     champion: String,
     role: Array,
-    price: Number,
+    price: Number, 
   },
 }
 
 </script>
 
+ <style scoped>
+ .background{
  
+   width: 100vw;
+   height: 100vh;
+ }
+ 
+ .img{
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+ } 
+ h1{
+ text-align: center;
+ }
+ #btn{
+   align-items: center;
+   position: absolute;
+   right: 22%;
+   bottom: 95%;
+   width: 15%;
+   font-size: 1em;}
+ #Mid{
+   align-items: center;
+   position: absolute;
+   right: 42%;
+   bottom:90%;
+   width: 15%;
+   font-size: 1em;
+ }
+ #Adc{
+   align-items: center;
+   position: absolute;
+   right: 22%;
+   bottom:90%;
+   width: 15%;
+   font-size: 1em;
+ }
+ #Support{
+   align-items: center;
+   position: absolute;
+   right: 3%;
+   bottom:90%;
+   width: 15%;
+   font-size: 1em;
+ }
+ #Jungle{
+   align-items: center;
+   position: absolute;
+   right: 62%;
+   bottom:90%;
+   width: 15%;
+   font-size: 1em;
+ }
+ #Top{
+   align-items: center;
+   position: absolute;
+   right: 82%;
+   bottom:90%;
+   width: 15%;
+   font-size: 1em;
+ }
+ #List{
+   align-items: center;
+   position: absolute;
+   right: 42%;
+   bottom:85%;
+   width: 15%;
+   font-size: 1em;
+ }
+ #Parent{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ .display-card{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   font-size: 25px;
+   padding: 20px;
+   margin: 10px 20px;
+   width: 25vw;
+   border: black solid 3px;
+   border-radius: 5px;
+   font-family: Caveat,cursive; 
+   flex-shrink: 5;
+   background-color: var(--secondary);
+ }
+ :root{
+   --light-blue : #2998ff ; 
+   --dark-red: #dc2626; 
+   --dark-blue: #135cc5; 
+   --light-red: #f87171;
+  --primary:var(--dark-red)
+   --secondary:var(--dark-blue);
+ }
+ .warm{
+ 
+   --primary:var(--dark-red);
+   --secondary:var(--light-red);
+ }
+ .cool{
+   --primary:var(--light-blue);
+   --secondary:var(--dark-blue);
+ }
+ body{
+   background-color:var(--primary)
+ }
+ .display-img{
+   width: 20vw;
+ }</style>
