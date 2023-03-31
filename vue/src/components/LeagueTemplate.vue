@@ -14,7 +14,7 @@
 export default {
   name: "LeagueTemplate",
   props: {
- /*    image: String, */
+    image: String, 
     champion: String,
     role: Array,
     price: Number, 
