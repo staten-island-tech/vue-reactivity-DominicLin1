@@ -40,8 +40,8 @@ export default {
 </script>
 
  <style scoped>
- .background{
- 
+ #app{
+ background-color: black;
    width: 100vw;
    height: 100vh;
  }
@@ -86,6 +86,7 @@ font-size: 16px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  background-color: black;
 
 }
 
@@ -98,7 +99,7 @@ font-size: 16px;
   padding: 20px;
   margin: 10px 20px;
   width: 25vw;
-  border: black solid 3px;
+  border: black solid 10px;
   border-radius: 5px;
   font-family: Caveat,cursive; 
   flex-shrink: 5;

@@ -18,14 +18,16 @@ return {League}
  
 
 <div class="work">
+  
     <LeagueTemplate
     
   v-for=" champion in  League" :key="champion" 
   :champion="champion.champion"
   :price="champion.price"
   :role=champion.role
-  :image="champion.img"/> 
-  <Button @test-click="Add">Add to Cart</Button>
+  :image="champion.img"
+  /> 
+
 </div>
 
 
@@ -37,8 +39,8 @@ return {League}
 
 
  <style scoped>
- .background{
- 
+ #app{
+ background-color: black;
    width: 100vw;
    height: 100vh;
  }
@@ -66,10 +68,26 @@ return {League}
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  background-color:white
 
 }
 button{
     width: 200px;
 font-size: 16px;}
 
+ .display-card{
+  
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  font: gold;
+  padding: 20px;
+  margin: 10px 20px;
+  width: 25vw;
+  border: white;
+  border-radius: 5px;
+  font-family: Caveat,cursive; 
+  flex-shrink: 5;
+ }
 </style>
