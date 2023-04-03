@@ -90,4 +90,9 @@ font-size: 16px;}
   font-family: Caveat,cursive; 
   flex-shrink: 5;
  }
+
+ #shop{
+position: absolute; top: 80%;
+}
+
 </style>
