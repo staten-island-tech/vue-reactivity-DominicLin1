@@ -1,6 +1,5 @@
 <script>
 import {League} from '../../js/array';
-import Button from '../components/Button.vue'
 import LeagueTemplate from "../components/LeagueTemplate.vue";
 export default {
   data(){
@@ -8,7 +7,6 @@ return {League}
 },
  components: {
   LeagueTemplate,
-  Button
 }} 
 
 

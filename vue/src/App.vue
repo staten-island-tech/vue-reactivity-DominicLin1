@@ -7,6 +7,10 @@ import data from './views/HomeView.vue'
 <template>
   <header>
    <RouterView></RouterView>
+    <nav>
+        <RouterLink to="/">Market</RouterLink>
+        <RouterLink to="/about">Shop</RouterLink>
+      </nav>
   </header>
 
 </template>
