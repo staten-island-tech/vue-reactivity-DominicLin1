@@ -40,13 +40,12 @@ export default {
 methods: {
 Add(object) {
   console.log(object);
-  let card=League.find((champion)=> champion.champion === champion.champion)
   League.push(object)}
 }
   }
 
 ;
-export const League= reactive([])
+export const League2= reactive([])
 </script>
 
 <style scoped>

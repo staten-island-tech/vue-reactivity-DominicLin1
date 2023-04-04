@@ -7,6 +7,7 @@ return {League}
 },
  components: {
   LeagueTemplate,
+
 }} 
 
 

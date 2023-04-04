@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import data from './views/HomeView.vue'
+import LeagueTempale2 from './views/Shop.vue'
 </script>
 
 <template>
