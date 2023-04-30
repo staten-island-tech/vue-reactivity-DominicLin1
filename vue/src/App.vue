@@ -9,25 +9,12 @@ import LeagueTempale2 from './views/Shop.vue'
   <header>
    <RouterView></RouterView>
     <nav>
-       <div class="Market" ><RouterLink to="/">Market</RouterLink> </div>
-        <div class= "S"><RouterLink to="/about">Shop</RouterLink> </div>
+        <RouterLink to="/">Market</RouterLink>
+        <RouterLink to="/about">Shop</RouterLink>
       </nav>
-      
   </header>
 
 </template>
 
 <style scoped>
-.Market{
-  position: fixed;
-    bottom: 90%;
-    right: 90%;
-    font-size: 32px;
-}
-.S{
-  position: fixed;
-  bottom: 90%;
-  left: 90%;
-  font-size: 32px;
-}
 </style>
